@@ -11,7 +11,7 @@ number = rand(1..100)
 
 while true do
 
-input = gets.chomp.to_i
+input = gets.to_i
 # takes the input from the user and turns it into a integer
 
     if input < number
