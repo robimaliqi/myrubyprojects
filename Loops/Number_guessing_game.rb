@@ -9,7 +9,7 @@ while ture
     number = rand(1..100)
 # generates a ranom number between 1 to 100
     input = get.to_i
-# takes the input from the user and turns it into a intiger
+# takes the input from the user and turns it into a integer
     if input < number 
         puts "Enter a larger number"
 # if the number the user puts in(input) is less than (<) the computer
