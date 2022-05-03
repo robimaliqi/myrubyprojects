@@ -1,17 +1,21 @@
 # Number Guessing game
 
-
 # while loop; keeps looping until the user gets the correct number
 
-while ture
-    print "Enter a number 1 to 100: "
 # asks the user to input a number
-    number = rand(1..100)
+print "Enter a number 1 to 100: "
+
 # generates a ranom number between 1 to 100
-    input = get.to_i
+number = rand(1..100)
+
+
+while true do
+
+input = gets.chomp.to_i
 # takes the input from the user and turns it into a integer
-    if input < number 
-        puts "Enter a larger number"
+
+    if input < number
+        puts "Enter a bigger number"
 # if the number the user puts in(input) is less than (<) the computer
 # generates the computer will tell the user to put a larger number
 
